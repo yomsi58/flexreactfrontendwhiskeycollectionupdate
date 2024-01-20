@@ -28,10 +28,9 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "site": "myflexreactwhiskycollect",
     "rewrites": [
       {
-        "source": "src",
+        "source": "**",
         "destination": "/index.html"
       }
     ]
